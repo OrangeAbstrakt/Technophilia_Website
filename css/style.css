@@ -46,6 +46,7 @@ a {
      transition: all .3s ease-in-out;
 }
 
+
 h1,
 h2,
 h3,
@@ -204,46 +205,6 @@ button {
 }
 
 
-/**-- heading section --**/
-
-
-/*---------------------------- preloader area ----------------------------*/
-
-.loader_bg {
-     position: fixed;
-     z-index: 9999999;
-     background: #fff;
-     width: 100%;
-     height: 100%;
-}
-
-.loader {
-     height: 100%;
-     width: 100%;
-     position: absolute;
-     left: 0;
-     top: 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
-
-.loader img {
-     width: 280px;
-}
-
-
-/*-- header area --*/
-
-
-/*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
-
-
-/*-- navigation--*/
-
 .navigation.navbar {
      float: right;
      background: #fff;
@@ -305,9 +266,6 @@ button {
 .logo {
      padding-top: 14px;
 }
-
-
-/** banner section **/
 
 .banner_main {
      background: #f5f6f6;
@@ -380,8 +338,6 @@ button {
 }
 
 
-/** end banner section **/
-
 .titlepage h2 {
      font-size: 35px;
      color: #2a2a2c;
@@ -417,8 +373,6 @@ button {
      transition: ease-in all 0.5s;
 }
 
-
-/** about section **/
 
 .about {
      border-bottom: #000 solid 1px;
@@ -467,12 +421,6 @@ button {
      font-weight: 500;
      margin-top: 44px;
 }
-
-
-/** end about section **/
-
-
-/** Our  shoes section **/
 
 .shoes {
      background: #fff;
@@ -543,11 +491,6 @@ button {
      color: white !important
 }
 
-/** end Our  shoes section **/
-
-
-/** Our shop section **/
-
 .shop {
      margin-top: 90px;
      background: #fefdf9;
@@ -605,11 +548,6 @@ button {
      color: #fff !important
 }
 
-
-/** end Our shop section **/
-
-
-/** clients section **/
 
 .clients {
      padding: 90px 0 70px 0;
@@ -681,11 +619,6 @@ button {
      display: none;
 }
 
-
-/** end clients section **/
-
-
-/** contact section **/
 
 .contact {
      margin-top: 90px;
@@ -768,10 +701,7 @@ button {
 }
 
 
-/** end contact section **/
 
-
-/** footer **/
 
 .footer {
      background: #252525;
@@ -824,10 +754,6 @@ ul.location_icon li a {
 }
 
 
-/** end footer **/
-
-
-/** inner page css **/
 
 .position_head .header {
      position: inherit;
@@ -837,4 +763,9 @@ ul.location_icon li a {
 .position_head .shoes,
 .shop {
      margin-bottom: 90px;
+}
+
+
+.form-hold{
+     margin: 0 auto;     
 }
