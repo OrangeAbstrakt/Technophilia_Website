@@ -23,7 +23,7 @@
 
 html {
      scroll-behavior: smooth;
-     
+
 }
 
 body {
@@ -101,7 +101,7 @@ h4 a,
 h5 a,
 h6 a {
      color: #212121;
-     text-decoration: none!important;
+     text-decoration: none !important;
      opacity: 1
 }
 
@@ -146,7 +146,7 @@ img {
      height: auto;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -472,19 +472,19 @@ button {
 /** end about section **/
 
 
-/** Our  Glasses section **/
+/** Our  shoes section **/
 
-.glasses {
+.shoes {
      background: #fff;
      margin-top: 90px;
 }
 
-.glasses .titlepage {
+.shoes .titlepage {
      text-align: center;
      padding-bottom: 60px;
 }
 
-.glasses .titlepage p {
+.shoes .titlepage p {
      font-size: 17px;
      line-height: 30px;
      font-weight: 400;
@@ -496,34 +496,34 @@ button {
      text-transform: initial;
 }
 
-.glasses .glasses_box {
+.shoes .shoes_box {
      text-align: center;
      border: #555556 solid 1px;
      border-radius: 25px;
-     padding: 120px 0px 30px 0px;
+     padding: 25px 0px 25px 0px;
      margin-bottom: 30px;
-     
+
 }
 
-.glasses .glasses_box figure {
+.shoes .shoes_box figure {
      margin: 0;
 }
 
-.glasses .glasses_box h3 {
+.shoes .shoes_box h3 {
      color: #100d0d;
      font-size: 22px;
      line-height: 20px;
      padding: 70px 0px 9px 0px;
 }
 
-.glasses .glasses_box p {
+.shoes .shoes_box p {
      color: #2a2a2c;
      font-size: 18px;
      line-height: 28px;
      font-weight: 400;
 }
 
-.glasses .read_more {
+.shoes .read_more {
      border: #1a1a1a solid 2px;
      font-weight: 500;
      display: block;
@@ -531,8 +531,19 @@ button {
      margin-top: 44px;
 }
 
+.read_more.disabled {
+     border: #eb6e6e solid 2px;
+     color: #eb6e6e !important;
+     opacity: 0.4;
+     cursor: not-allowed;
+}
 
-/** end Our  Glasses section **/
+.read_more.disabled:hover {
+     background-color: #eb6e6e;
+     color: white !important
+}
+
+/** end Our  shoes section **/
 
 
 /** Our shop section **/
@@ -823,7 +834,7 @@ ul.location_icon li a {
      background: #03cafc;
 }
 
-.position_head .glasses,
+.position_head .shoes,
 .shop {
      margin-bottom: 90px;
 }
